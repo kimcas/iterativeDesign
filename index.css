@@ -1,1 +1,102 @@
 /* Put your style information here! */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    padding: 50px 100px;
+}
+p {
+    width: 80%;
+    font-size: 17px;
+    text-align: justify;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 50px 0 20px 0;
+    color: #3E4B94;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title {
+    font-size: 60px;
+}
+.overview {
+    text-align: center;
+    width: 60%;
+    font-size: 17px;
+    margin: -10px 0px 50px 0;
+}
+.compiledSketches {
+    width: 100%;
+}
+.lofi {
+    width: 60%;
+    padding-left: 20%;
+}
+.hifiLink, .nototoLink{
+    color: white;
+    background-color: #3E4B94;
+    padding: 12px 40px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border-bottom: 2px solid#2b2670;
+    transition: background 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.hifiLink:hover, .nototoLink:hover {
+    background-color: #2b2670;
+}
+h3 {
+    font-size: 22px;
+}
+.users {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    padding-left: 5%;
+    width: 100%;
+}
+.item {
+    width: 45%;
+}
+.userPara {
+    text-align: left;
+}
+.summaryResults {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    padding: 7px 0;
+    width: 80%;
+}
+
+.button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.saturn {
+    height: 70px;
+}
+
+h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+}

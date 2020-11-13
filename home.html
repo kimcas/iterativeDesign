@@ -2,13 +2,181 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Iterative Design </title>
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+    <header>
+      <h1 class="title">Iterative Design <img class="saturn" src="ringed-planet_1fa90.png"></h1>
+      <p class="overview">For this group project, we created a high fidelity prototype for 
+        the startup, Nototo, based off of a description of their interface. Throughout 
+        the process, we created sketches, lo-fi, and hi-fi prototypes, received Feedback
+        from an industry professional, and uploaded our prototype to usertesting.com to 
+        get real user input.
+      </p>
+    </header>
+    <section class="startupInfo">
+      <h2>Startup Info</h2>
+      <p>Nototo is a note-taking software that allows users to take advantage of their 
+        visual-spatial memory. The intention behind the workspace is to store any 
+        volume of information in however layout a user decides. The result is an 
+        infinite “map”  that the user(s) continuously builds upon. A key feature is 
+        the zooming aspect of the workspace, whereby all the notes are visible when 
+        a user zooms out and as the user zooms in, more specific categories, media 
+        and notes become visible. </p>
+      <div class="button">
+        <a class="nototoLink" href="https://www.nototo.app/">Link to Startup</a>
+      </div>
+    </section>
+    <section class="sketches">
+      <h2>Sketches</h2>
+      <p>We began by sketching our ideas for the interface to brainstom potential
+        layouts and functionalities.</p>
+      <img class="compiledSketches" alt="Compiled Sketches" src="compiledsketchcolor.svg">
+      <p>After combining all our ideas from our sketches, we created a lo-fi 
+        prototype for our interface.
+      </p>
+      <img class="lofi" alt="Lo-Fi prototype" src="iterativedesign-lofi-wireframes.png">
+    </section>
+    <section class="prototype">
+      <h2>Mockup and Critique Feedback</h2></h3>
+      <p>After creating a lo-fi prototype for Nototo, we made our hi-fi prototype
+        in Figma to implement our ideas. 
+      </p>
+      <div class="button">
+        <a class="hifiLink" href="https://www.figma.com/proto/8RuGP3yaYpJwQRtxuiPUxL/Nototo-Hi-Fi-Prototype?node-id=6%3A6&viewport=254%2C383%2C0.09613467752933502&scaling=min-zoom" 
+        target="_blank">Link to Prototype</a>
+      </div>
+      <h3>Critique Feedback</h3>
+      <ul>
+        <li>Upper left corner is the most important call to action
+          <ul><li>Maybe move “back to home” and “create element” buttons to top of screen (core navigation) </li></ul>
+        </li>
+        <li>+/- zoom in and zoom out button is good for ppl who use screen reader (affordances)</li>
+        <li>breadcrumb system so you don’t get lost (maybe a path)</li>
+        <li>Mini-Map in corner to show where you are in screen</li>
+        <li>Click outside of bubble or sheet to zoom out </li>
+        <li>Create a visual hierarchy </li>
+        <li>Reduce number of type faces on home screen to 1-2</li>
+        <li>back to home button on the biology screen is not linked</li>
+        <li>Clicking “sign up” also takes me to the login screen, consider adjusting 
+          the hot spot</li>
+      </ul>
+    </section>
+    <section class="userTesting">
+      <h2>User Testing</h2>
+      <h3>Testing Instructions</h3>
+      <p>Sign into Nototo, add an image to the blank document in the biology lab bubble, then, log out.</p>
+      <h3>Post Test Questions</h3>
+      <ol>
+        <li>Did you feel that the website gave you enough information and cues to feel comfortable using the interface and navigating to the correct topic? Explain your answer.</li>
+        <li>What, if anything, is missing on this page?</li>
+        <li>What 3 words would you use to describe this interface? Would you feel comfortable using Nototo for your note-taking? Explain your answer.</li>
+      </ol>
+      <div class="results">
+      <h3>Summary of User Testing Results</h3>
+        <div class="users">
+          <div class="item">
+            <h4>User 1:</h4>
+            <p class="userPara">The user had a hard time navigating through the button options. 
+              The user expressed confusion when attempting to add the image to the 
+              document as they weren’t sure if the “add element” button would allow 
+              them to add an image. Other than that, the user expressed that the layout 
+              was intuitive but would have liked the title of the image to appear within 
+              the document somewhere (maybe outside the document at the bottom). 
+              Additionally, they wanted greater freedom in being able to customize and 
+              edit their layout than what was modeled in the prototype. They enjoyed how 
+              quickly it was to add an image and wanted that to be the case for other elements. </p>
+          </div>
+          <div class="item">
+            <h4>User 2:</h4>
+            <p class="userPara">Although the user expressed the interface seemed intuitive, 
+              they had trouble adding an image to the lab document. They initially thought 
+              that the image should have been added as its own bubble within the biology 
+              bubble. This user expressed that the interface and layout was visually 
+              appealing and that the user flow was engaging. </p>
+          </div>
+          <div class="item">
+            <h4>User 3:</h4>
+            <p class="userPara">This user had difficulty adding the image due to 
+              the different way they thought of adding the image (with the toolbar 
+              on top of the document as opposed to the “add element” button at the bottom). </p>
+          </div>
+        </div>
+        <div class="summaryResults">
+          <h3>Summary of Results</h3>
+          <p>Explanation of results: Overall, though the interface seemed intuitive to most of the users, 
+            there was confusion across the board for how to properly insert an image to a document or element 
+            in one of the bubbles. The users had to experiment clicking on various other elements first 
+            before realizing what they had to do. As a result, they would kind of backtrack to 
+            where their initial startpoint was and after exploring the other elements, 
+            move from that initial startpoint.  </p>
+        </div>
+      </div>
+      <div class="subtasks">
+        <h3>Summary of Subtasks</h3>
+        <p>To add the image, the user had to navigate to the biology topic bubble. 
+          There, they had to click on the lab bubble and further click on the blank 
+          document within that lab section. From there, they had to press the “add 
+          element” button which directs them to import an image or import video. The 
+          user then had to click on import image, select the image from their computer, 
+          and then click “select image.” One that was done, the user had to click on my 
+          account and navigate to the “sign out” bubble. </p>
+      </div>
+      <div class="errors">
+        <h3>Errors Users Made</h3>
+        <ul>
+          <li>Did not realize that they have to click on add element in order to 
+            insert the document to the lab - thought that they should click on the 
+            toolbar of the blank document instead 
+            <ul>
+              <li>Therefore they weren't able to complete the task</li>
+            </ul>
+            </li>
+            <li>Multiple users were confused by the task directions; they thought 
+              that the image should be added to the biology bubble as a separate 
+              bubble rather than within a document inside the lab bubble. </li>
+        </ul>
+      </div>
+      <div class="userPerformance">
+        <h3>General User Performance</h3>
+        <p>Most of the users were able to complete the task but it was evident that  
+          they tried other methods first to do so. However, those that weren’t able 
+          to complete the task couldn’t complete it because of confusion pertaining 
+          to which method of adding the image was intuitive for them. </p>
+      </div>
+      <div class="potentialChanges">
+        <h3>Potential Changes</h3>
+        <ul>
+          <li>Clarify in the user testing instructions that the user should be adding 
+            a document to the lab section as they go through the test; have the testng 
+            instructions guide the user rather than just give them a task and a question 
+            at the beginning. </li>
+            <li>In terms of layout, perhaps making the add element button more of a 
+              fan with multiple functionalities (add image, text, etc.) that pops up 
+              when the user hovers over the button</li>
+            <li>Simplify the navigation bar at the top of the document to make it clear 
+              to the user that to insert elements they should use the add element button</li>
+        </ul>
+      </div>
+    </section>
+    <section class="videos">
+      <h2>User Testing Videos</h2>
+      <video controls>
+        <source src="UserTesting-3277328A.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video controls>
+        <source src="UserTesting-3277328B.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video controls>
+        <source src="UserTesting-3277328C.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
   </body>
 </html>
